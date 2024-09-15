@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Not"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Orders"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+    <View
+        android:id="@+id/myRectangleView"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:background="@color/white"
+        android:layout_marginTop="175dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFA500"
+        android:text="1 Masala Dosa"
+        android:textSize="20sp"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="180dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 Dosa, sambhar, potato sabzi, chuttuny"
+        android:textColor="@color/black"
+        android:layout_marginTop="205dp"
+        android:layout_marginLeft="30dp"/>
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accept"
+
+        android:layout_marginTop="226dp"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+        android:id="@+id/reject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reject"
+        android:layout_marginTop="226dp"
+        android:layout_marginLeft="280dp"/>
+
+    <TextView
+        android:id="@+id/sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="265dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Check the payment status and then accept"
+        android:layout_marginTop="295sp"
+        android:layout_marginLeft="34sp"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

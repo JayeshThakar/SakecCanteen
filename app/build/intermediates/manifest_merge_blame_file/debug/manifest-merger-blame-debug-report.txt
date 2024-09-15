@@ -1,0 +1,604 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.sakeccanteen"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:5:22-63
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:6:5-66
+12-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:7:5-78
+13-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:8:5-75
+14-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:8:22-73
+15
+16    <queries>
+16-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:10:5-16:15
+17        <intent>
+17-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:11:9-15:18
+18            <action android:name="android.intent.action.VIEW" />
+18-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:12:13-65
+18-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:12:21-62
+19
+20            <data android:scheme="https" />
+20-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:14:13-44
+20-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:14:19-41
+21        </intent>
+22    </queries>
+23
+24    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+24-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:25:5-77
+24-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:25:22-74
+25    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+25-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:26:5-68
+25-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:26:22-65
+26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+26-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:28:5-82
+26-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:28:22-79
+27
+28    <permission
+28-->[androidx.core:core:1.9.0] C:\Users\thaka\.gradle\caches\transforms-3\3fa129b34d483e76fab5ad11d3eb5bf3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+29        android:name="com.example.sakeccanteen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.9.0] C:\Users\thaka\.gradle\caches\transforms-3\3fa129b34d483e76fab5ad11d3eb5bf3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.9.0] C:\Users\thaka\.gradle\caches\transforms-3\3fa129b34d483e76fab5ad11d3eb5bf3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.example.sakeccanteen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.9.0] C:\Users\thaka\.gradle\caches\transforms-3\3fa129b34d483e76fab5ad11d3eb5bf3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.9.0] C:\Users\thaka\.gradle\caches\transforms-3\3fa129b34d483e76fab5ad11d3eb5bf3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:10:5-113:19
+35        android:allowBackup="true"
+35-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:11:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.9.0] C:\Users\thaka\.gradle\caches\transforms-3\3fa129b34d483e76fab5ad11d3eb5bf3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+37        android:dataExtractionRules="@xml/data_extraction_rules"
+37-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:12:9-65
+38        android:debuggable="true"
+39        android:extractNativeLibs="false"
+40        android:fullBackupContent="@xml/backup_rules"
+40-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:13:9-54
+41        android:icon="@mipmap/ic_launcher"
+41-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:14:9-43
+42        android:label="@string/app_name"
+42-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:15:9-41
+43        android:supportsRtl="true"
+43-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:16:9-35
+44        android:theme="@style/Theme.SakecCanteen" >
+44-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:17:9-50
+45        <activity
+45-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:19:9-21:40
+46            android:name="com.example.sakeccanteen.Not"
+46-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:20:13-32
+47            android:exported="false" />
+47-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:21:13-37
+48        <activity
+48-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:22:9-24:40
+49            android:name="com.example.sakeccanteen.reject"
+49-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:23:13-35
+50            android:exported="false" />
+50-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:24:13-37
+51        <activity
+51-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:25:9-27:40
+52            android:name="com.example.sakeccanteen.accept"
+52-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:26:13-35
+53            android:exported="false" />
+53-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:27:13-37
+54        <activity
+54-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:28:9-30:40
+55            android:name="com.example.sakeccanteen.Canteen1"
+55-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:29:13-37
+56            android:exported="false" />
+56-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:30:13-37
+57        <activity
+57-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:31:9-33:40
+58            android:name="com.example.sakeccanteen.Payment1"
+58-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:32:13-37
+59            android:exported="false" />
+59-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:33:13-37
+60        <activity
+60-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:34:9-36:40
+61            android:name="com.example.sakeccanteen.Payment"
+61-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:35:13-36
+62            android:exported="false" />
+62-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:36:13-37
+63        <activity
+63-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:37:9-39:40
+64            android:name="com.example.sakeccanteen.Table"
+64-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:38:13-34
+65            android:exported="false" />
+65-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:39:13-37
+66        <activity
+66-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:40:9-42:40
+67            android:name="com.example.sakeccanteen.Food"
+67-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:41:13-33
+68            android:exported="false" />
+68-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:42:13-37
+69        <activity
+69-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:43:9-45:40
+70            android:name="com.example.sakeccanteen.Wal"
+70-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:44:13-32
+71            android:exported="false" />
+71-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:45:13-37
+72        <activity
+72-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:46:9-48:40
+73            android:name="com.example.sakeccanteen.Verification"
+73-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:47:13-41
+74            android:exported="false" />
+74-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:48:13-37
+75        <activity
+75-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:49:9-57:20
+76            android:name="com.example.sakeccanteen.SplashScreen"
+76-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:50:13-41
+77            android:exported="true" >
+77-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:51:13-36
+78            <intent-filter>
+78-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:52:13-56:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:53:17-69
+79-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:53:25-66
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:55:17-77
+81-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:55:27-74
+82            </intent-filter>
+83        </activity>
+84        <activity
+84-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:58:9-60:40
+85            android:name="com.example.sakeccanteen.SignupStaff"
+85-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:59:13-40
+86            android:exported="false" />
+86-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:60:13-37
+87        <activity
+87-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:61:9-63:40
+88            android:name="com.example.sakeccanteen.Signup"
+88-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:62:13-35
+89            android:exported="false" />
+89-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:63:13-37
+90        <activity
+90-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:64:9-66:40
+91            android:name="com.example.sakeccanteen.Settings"
+91-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:65:13-37
+92            android:exported="false" />
+92-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:66:13-37
+93        <activity
+93-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:67:9-69:40
+94            android:name="com.example.sakeccanteen.Login"
+94-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:68:13-34
+95            android:exported="false" />
+95-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:69:13-37
+96        <activity
+96-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:70:9-72:40
+97            android:name="com.example.sakeccanteen.Intro2"
+97-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:71:13-35
+98            android:exported="false" />
+98-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:72:13-37
+99        <activity
+99-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:73:9-75:40
+100            android:name="com.example.sakeccanteen.Intro"
+100-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:74:13-34
+101            android:exported="false" />
+101-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:75:13-37
+102        <activity
+102-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:76:9-78:40
+103            android:name="com.example.sakeccanteen.Home"
+103-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:77:13-33
+104            android:exported="false" />
+104-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:78:13-37
+105        <activity
+105-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:79:9-81:40
+106            android:name="com.example.sakeccanteen.Contact"
+106-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:80:13-36
+107            android:exported="false" />
+107-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:81:13-37
+108        <activity
+108-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:82:9-84:40
+109            android:name="com.example.sakeccanteen.CanteenStaff"
+109-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:83:13-41
+110            android:exported="false" />
+110-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:84:13-37
+111        <activity
+111-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:85:9-87:40
+112            android:name="com.example.sakeccanteen.Canteen"
+112-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:86:13-36
+113            android:exported="false" />
+113-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:87:13-37
+114        <activity
+114-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:88:9-90:40
+115            android:name="com.example.sakeccanteen.Ask2"
+115-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:89:13-33
+116            android:exported="false" />
+116-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:90:13-37
+117        <activity
+117-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:91:9-93:40
+118            android:name="com.example.sakeccanteen.Ask"
+118-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:92:13-32
+119            android:exported="false" />
+119-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:93:13-37
+120        <activity
+120-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:94:9-102:20
+121            android:name="com.example.sakeccanteen.MainActivity"
+121-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:95:13-41
+122            android:exported="true" >
+122-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:96:13-36
+123            <intent-filter>
+123-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:52:13-56:29
+124                <action android:name="android.intent.action.MAIN" />
+124-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:53:17-69
+124-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:53:25-66
+125
+126                <category android:name="android.intent.category.LAUNCHER" />
+126-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:55:17-77
+126-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:55:27-74
+127            </intent-filter>
+128        </activity>
+129
+130        <service
+130-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:104:9-112:19
+131            android:name="com.example.sakeccanteen.FirebaseMessagingService"
+131-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:105:13-53
+132            android:exported="true"
+132-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:106:13-36
+133            android:permission="TODO" >
+133-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:107:13-38
+134            <intent-filter>
+134-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:109:13-111:29
+135                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+135-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:110:17-78
+135-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:110:25-75
+136            </intent-filter>
+137        </service>
+138        <service
+138-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:19:9-28:19
+139            android:name="com.google.firebase.components.ComponentDiscoveryService"
+139-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:20:13-84
+140            android:directBootAware="true"
+140-->[com.google.firebase:firebase-common:20.4.2] C:\Users\thaka\.gradle\caches\transforms-3\fb7fb7862c27c8ab674946e369c70cad\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+141            android:exported="false" >
+141-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:21:13-37
+142            <meta-data
+142-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:22:13-24:85
+143                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayKtxRegistrar"
+143-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:23:17-147
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:24:17-82
+145            <meta-data
+145-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:25:13-27:85
+146                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
+146-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:26:17-144
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:27:17-82
+148            <meta-data
+148-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:67:13-69:85
+149                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+149-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:68:17-109
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:69:17-82
+151            <meta-data
+151-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\thaka\.gradle\caches\transforms-3\c912904f7a2f9b654a6cb5771e7fd1ec\transformed\firebase-firestore-24.1.1\AndroidManifest.xml:20:13-22:85
+152                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+152-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\thaka\.gradle\caches\transforms-3\c912904f7a2f9b654a6cb5771e7fd1ec\transformed\firebase-firestore-24.1.1\AndroidManifest.xml:21:17-111
+153                android:value="com.google.firebase.components.ComponentRegistrar" />
+153-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\thaka\.gradle\caches\transforms-3\c912904f7a2f9b654a6cb5771e7fd1ec\transformed\firebase-firestore-24.1.1\AndroidManifest.xml:22:17-82
+154            <meta-data
+154-->[com.google.firebase:firebase-messaging-ktx:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\a671978801ea1d37de09eff3c2d6cb23\transformed\firebase-messaging-ktx-23.1.2\AndroidManifest.xml:28:13-30:85
+155                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+155-->[com.google.firebase:firebase-messaging-ktx:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\a671978801ea1d37de09eff3c2d6cb23\transformed\firebase-messaging-ktx-23.1.2\AndroidManifest.xml:29:17-126
+156                android:value="com.google.firebase.components.ComponentRegistrar" />
+156-->[com.google.firebase:firebase-messaging-ktx:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\a671978801ea1d37de09eff3c2d6cb23\transformed\firebase-messaging-ktx-23.1.2\AndroidManifest.xml:30:17-82
+157            <meta-data
+157-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\thaka\.gradle\caches\transforms-3\d1c480a40781567a642ea05a9baca26d\transformed\firebase-storage-20.0.1\AndroidManifest.xml:33:13-35:85
+158                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+158-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\thaka\.gradle\caches\transforms-3\d1c480a40781567a642ea05a9baca26d\transformed\firebase-storage-20.0.1\AndroidManifest.xml:34:17-107
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\thaka\.gradle\caches\transforms-3\d1c480a40781567a642ea05a9baca26d\transformed\firebase-storage-20.0.1\AndroidManifest.xml:35:17-82
+160            <meta-data
+160-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\thaka\.gradle\caches\transforms-3\39305d362b47e09748c25c3b1a271f15\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+161                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+161-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\thaka\.gradle\caches\transforms-3\39305d362b47e09748c25c3b1a271f15\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:15:17-124
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\thaka\.gradle\caches\transforms-3\39305d362b47e09748c25c3b1a271f15\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:16:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-database:20.2.0] C:\Users\thaka\.gradle\caches\transforms-3\ae4026b8fb6d5bae30efffd558aecb4c\transformed\firebase-database-20.2.0\AndroidManifest.xml:31:13-33:85
+164                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+164-->[com.google.firebase:firebase-database:20.2.0] C:\Users\thaka\.gradle\caches\transforms-3\ae4026b8fb6d5bae30efffd558aecb4c\transformed\firebase-database-20.2.0\AndroidManifest.xml:32:17-109
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-database:20.2.0] C:\Users\thaka\.gradle\caches\transforms-3\ae4026b8fb6d5bae30efffd558aecb4c\transformed\firebase-database-20.2.0\AndroidManifest.xml:33:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
+167                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+167-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\078592afc653544cdb4876bd637ac6ef\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:14:13-16:85
+170                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingKtxRegistrar"
+170-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\078592afc653544cdb4876bd637ac6ef\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:15:17-132
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\078592afc653544cdb4876bd637ac6ef\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:16:17-82
+172            <meta-data
+172-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\078592afc653544cdb4876bd637ac6ef\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:17:13-19:85
+173                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+173-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\078592afc653544cdb4876bd637ac6ef\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:18:17-129
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\078592afc653544cdb4876bd637ac6ef\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:19:17-82
+175            <meta-data
+175-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\thaka\.gradle\caches\transforms-3\06b7a6f4310d29c10cb4c6c0988871c1\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+176                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+176-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\thaka\.gradle\caches\transforms-3\06b7a6f4310d29c10cb4c6c0988871c1\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\thaka\.gradle\caches\transforms-3\06b7a6f4310d29c10cb4c6c0988871c1\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+178            <meta-data
+178-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\thaka\.gradle\caches\transforms-3\06b7a6f4310d29c10cb4c6c0988871c1\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+179                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+179-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\thaka\.gradle\caches\transforms-3\06b7a6f4310d29c10cb4c6c0988871c1\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\thaka\.gradle\caches\transforms-3\06b7a6f4310d29c10cb4c6c0988871c1\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+181            <meta-data
+181-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\thaka\.gradle\caches\transforms-3\d6ed96e0aed957f61ee9c83f309f17ef\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+182                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+182-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\thaka\.gradle\caches\transforms-3\d6ed96e0aed957f61ee9c83f309f17ef\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\thaka\.gradle\caches\transforms-3\d6ed96e0aed957f61ee9c83f309f17ef\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+184            <meta-data
+184-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\thaka\.gradle\caches\transforms-3\bff2edd87b64f903c45574d895422a4b\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:25:13-27:85
+185                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+185-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\thaka\.gradle\caches\transforms-3\bff2edd87b64f903c45574d895422a4b\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:26:17-115
+186                android:value="com.google.firebase.components.ComponentRegistrar" />
+186-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\thaka\.gradle\caches\transforms-3\bff2edd87b64f903c45574d895422a4b\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:27:17-82
+187            <meta-data
+187-->[com.google.firebase:firebase-common:20.4.2] C:\Users\thaka\.gradle\caches\transforms-3\fb7fb7862c27c8ab674946e369c70cad\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+188                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+188-->[com.google.firebase:firebase-common:20.4.2] C:\Users\thaka\.gradle\caches\transforms-3\fb7fb7862c27c8ab674946e369c70cad\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+189                android:value="com.google.firebase.components.ComponentRegistrar" />
+189-->[com.google.firebase:firebase-common:20.4.2] C:\Users\thaka\.gradle\caches\transforms-3\fb7fb7862c27c8ab674946e369c70cad\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+190            <meta-data
+190-->[com.google.firebase:firebase-abt:21.1.1] C:\Users\thaka\.gradle\caches\transforms-3\57c131e1c265decaf3e1285e88ab7ef4\transformed\firebase-abt-21.1.1\AndroidManifest.xml:12:13-14:85
+191                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+191-->[com.google.firebase:firebase-abt:21.1.1] C:\Users\thaka\.gradle\caches\transforms-3\57c131e1c265decaf3e1285e88ab7ef4\transformed\firebase-abt-21.1.1\AndroidManifest.xml:13:17-109
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[com.google.firebase:firebase-abt:21.1.1] C:\Users\thaka\.gradle\caches\transforms-3\57c131e1c265decaf3e1285e88ab7ef4\transformed\firebase-abt-21.1.1\AndroidManifest.xml:14:17-82
+193        </service>
+194
+195        <activity
+195-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:27:9-44:20
+196            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+196-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:28:13-80
+197            android:excludeFromRecents="true"
+197-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:29:13-46
+198            android:exported="true"
+198-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:30:13-36
+199            android:launchMode="singleTask"
+199-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:31:13-44
+200            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+200-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:32:13-72
+201            <intent-filter>
+201-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:33:13-43:29
+202                <action android:name="android.intent.action.VIEW" />
+202-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:12:13-65
+202-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:12:21-62
+203
+204                <category android:name="android.intent.category.DEFAULT" />
+204-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
+204-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
+205                <category android:name="android.intent.category.BROWSABLE" />
+205-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
+205-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
+206
+207                <data
+207-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:14:13-44
+208                    android:host="firebase.auth"
+209                    android:path="/"
+210                    android:scheme="genericidp" />
+210-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:14:19-41
+211            </intent-filter>
+212        </activity>
+213        <activity
+213-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:45:9-62:20
+214            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+214-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:46:13-79
+215            android:excludeFromRecents="true"
+215-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:47:13-46
+216            android:exported="true"
+216-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:48:13-36
+217            android:launchMode="singleTask"
+217-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:49:13-44
+218            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+218-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:50:13-72
+219            <intent-filter>
+219-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:51:13-61:29
+220                <action android:name="android.intent.action.VIEW" />
+220-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:12:13-65
+220-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:12:21-62
+221
+222                <category android:name="android.intent.category.DEFAULT" />
+222-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
+222-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
+223                <category android:name="android.intent.category.BROWSABLE" />
+223-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
+223-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\thaka\.gradle\caches\transforms-3\22ceca0b8edc27a8cbdc032c7e6d0cfd\transformed\firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
+224
+225                <data
+225-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:14:13-44
+226                    android:host="firebase.auth"
+227                    android:path="/"
+228                    android:scheme="recaptcha" />
+228-->[com.google.firebase:firebase-inappmessaging-display:20.4.0] C:\Users\thaka\.gradle\caches\transforms-3\0eca2365b60e94f42f5a6752b1702858\transformed\firebase-inappmessaging-display-20.4.0\AndroidManifest.xml:14:19-41
+229            </intent-filter>
+230        </activity>
+231
+232        <receiver
+232-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
+233            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+233-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
+234            android:exported="true"
+234-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
+235            android:permission="com.google.android.c2dm.permission.SEND" >
+235-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
+236            <intent-filter>
+236-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:35:13-37:29
+237                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+237-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:36:17-81
+237-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:36:25-78
+238            </intent-filter>
+239        </receiver>
+240        <!--
+241             FirebaseMessagingService performs security checks at runtime,
+242             but set to not exported to explicitly avoid allowing another app to call it.
+243        -->
+244        <service
+244-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
+245            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+245-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
+246            android:directBootAware="true"
+246-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
+247            android:exported="false" >
+247-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\thaka\.gradle\caches\transforms-3\9f1c99c73d9b55ef2107a84db3359e49\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
+248            <intent-filter android:priority="-500" >
+248-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:109:13-111:29
+249                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+249-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:110:17-78
+249-->C:\Users\thaka\AndroidStudioProjects\SakecCanteen2\app\src\main\AndroidManifest.xml:110:25-75
+250            </intent-filter>
+251        </service>
+252
+253        <provider
+253-->[com.google.firebase:firebase-common:20.4.2] C:\Users\thaka\.gradle\caches\transforms-3\fb7fb7862c27c8ab674946e369c70cad\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+254            android:name="com.google.firebase.provider.FirebaseInitProvider"
+254-->[com.google.firebase:firebase-common:20.4.2] C:\Users\thaka\.gradle\caches\transforms-3\fb7fb7862c27c8ab674946e369c70cad\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+255            android:authorities="com.example.sakeccanteen.firebaseinitprovider"
+255-->[com.google.firebase:firebase-common:20.4.2] C:\Users\thaka\.gradle\caches\transforms-3\fb7fb7862c27c8ab674946e369c70cad\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+256            android:directBootAware="true"
+256-->[com.google.firebase:firebase-common:20.4.2] C:\Users\thaka\.gradle\caches\transforms-3\fb7fb7862c27c8ab674946e369c70cad\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+257            android:exported="false"
+257-->[com.google.firebase:firebase-common:20.4.2] C:\Users\thaka\.gradle\caches\transforms-3\fb7fb7862c27c8ab674946e369c70cad\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+258            android:initOrder="100" />
+258-->[com.google.firebase:firebase-common:20.4.2] C:\Users\thaka\.gradle\caches\transforms-3\fb7fb7862c27c8ab674946e369c70cad\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+259
+260        <activity
+260-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\thaka\.gradle\caches\transforms-3\8297cd2fd10bde4aad46908a4ab5e7bc\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+261            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+261-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\thaka\.gradle\caches\transforms-3\8297cd2fd10bde4aad46908a4ab5e7bc\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+262            android:exported="false"
+262-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\thaka\.gradle\caches\transforms-3\8297cd2fd10bde4aad46908a4ab5e7bc\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+263            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+263-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\thaka\.gradle\caches\transforms-3\8297cd2fd10bde4aad46908a4ab5e7bc\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+264
+265        <meta-data
+265-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\thaka\.gradle\caches\transforms-3\e6540fab5e93b7c7c5fbe23de27ee667\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+266            android:name="com.google.android.gms.version"
+266-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\thaka\.gradle\caches\transforms-3\e6540fab5e93b7c7c5fbe23de27ee667\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+267            android:value="@integer/google_play_services_version" />
+267-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\thaka\.gradle\caches\transforms-3\e6540fab5e93b7c7c5fbe23de27ee667\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+268
+269        <provider
+269-->[androidx.emoji2:emoji2:1.2.0] C:\Users\thaka\.gradle\caches\transforms-3\eb06ce462a2b6ab0a1ac8dc75b2f09e5\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+270            android:name="androidx.startup.InitializationProvider"
+270-->[androidx.emoji2:emoji2:1.2.0] C:\Users\thaka\.gradle\caches\transforms-3\eb06ce462a2b6ab0a1ac8dc75b2f09e5\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+271            android:authorities="com.example.sakeccanteen.androidx-startup"
+271-->[androidx.emoji2:emoji2:1.2.0] C:\Users\thaka\.gradle\caches\transforms-3\eb06ce462a2b6ab0a1ac8dc75b2f09e5\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+272            android:exported="false" >
+272-->[androidx.emoji2:emoji2:1.2.0] C:\Users\thaka\.gradle\caches\transforms-3\eb06ce462a2b6ab0a1ac8dc75b2f09e5\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+273            <meta-data
+273-->[androidx.emoji2:emoji2:1.2.0] C:\Users\thaka\.gradle\caches\transforms-3\eb06ce462a2b6ab0a1ac8dc75b2f09e5\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+274                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+274-->[androidx.emoji2:emoji2:1.2.0] C:\Users\thaka\.gradle\caches\transforms-3\eb06ce462a2b6ab0a1ac8dc75b2f09e5\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+275                android:value="androidx.startup" />
+275-->[androidx.emoji2:emoji2:1.2.0] C:\Users\thaka\.gradle\caches\transforms-3\eb06ce462a2b6ab0a1ac8dc75b2f09e5\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+276            <meta-data
+276-->[androidx.lifecycle:lifecycle-process:2.6.0] C:\Users\thaka\.gradle\caches\transforms-3\b933eda88fc2cc60a56430706e37f30d\transformed\lifecycle-process-2.6.0\AndroidManifest.xml:29:13-31:52
+277                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+277-->[androidx.lifecycle:lifecycle-process:2.6.0] C:\Users\thaka\.gradle\caches\transforms-3\b933eda88fc2cc60a56430706e37f30d\transformed\lifecycle-process-2.6.0\AndroidManifest.xml:30:17-78
+278                android:value="androidx.startup" />
+278-->[androidx.lifecycle:lifecycle-process:2.6.0] C:\Users\thaka\.gradle\caches\transforms-3\b933eda88fc2cc60a56430706e37f30d\transformed\lifecycle-process-2.6.0\AndroidManifest.xml:31:17-49
+279            <meta-data
+279-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\thaka\.gradle\caches\transforms-3\e191bd0e43aa20972a73ae43e0146180\transformed\profileinstaller-1.2.1\AndroidManifest.xml:30:13-32:52
+280                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+280-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\thaka\.gradle\caches\transforms-3\e191bd0e43aa20972a73ae43e0146180\transformed\profileinstaller-1.2.1\AndroidManifest.xml:31:17-85
+281                android:value="androidx.startup" />
+281-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\thaka\.gradle\caches\transforms-3\e191bd0e43aa20972a73ae43e0146180\transformed\profileinstaller-1.2.1\AndroidManifest.xml:32:17-49
+282        </provider>
+283
+284        <uses-library
+284-->[androidx.window:window:1.0.0] C:\Users\thaka\.gradle\caches\transforms-3\01814c4cc3662079b2271f6b6afbe137\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+285            android:name="androidx.window.extensions"
+285-->[androidx.window:window:1.0.0] C:\Users\thaka\.gradle\caches\transforms-3\01814c4cc3662079b2271f6b6afbe137\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+286            android:required="false" />
+286-->[androidx.window:window:1.0.0] C:\Users\thaka\.gradle\caches\transforms-3\01814c4cc3662079b2271f6b6afbe137\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+287        <uses-library
+287-->[androidx.window:window:1.0.0] C:\Users\thaka\.gradle\caches\transforms-3\01814c4cc3662079b2271f6b6afbe137\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+288            android:name="androidx.window.sidecar"
+288-->[androidx.window:window:1.0.0] C:\Users\thaka\.gradle\caches\transforms-3\01814c4cc3662079b2271f6b6afbe137\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+289            android:required="false" />
+289-->[androidx.window:window:1.0.0] C:\Users\thaka\.gradle\caches\transforms-3\01814c4cc3662079b2271f6b6afbe137\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+290
+291        <receiver
+291-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\thaka\.gradle\caches\transforms-3\e191bd0e43aa20972a73ae43e0146180\transformed\profileinstaller-1.2.1\AndroidManifest.xml:35:9-47:20
+292            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+292-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\thaka\.gradle\caches\transforms-3\e191bd0e43aa20972a73ae43e0146180\transformed\profileinstaller-1.2.1\AndroidManifest.xml:36:13-76
+293            android:directBootAware="false"
+293-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\thaka\.gradle\caches\transforms-3\e191bd0e43aa20972a73ae43e0146180\transformed\profileinstaller-1.2.1\AndroidManifest.xml:37:13-44
+294            android:enabled="true"
+294-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\thaka\.gradle\caches\transforms-3\e191bd0e43aa20972a73ae43e0146180\transformed\profileinstaller-1.2.1\AndroidManifest.xml:38:13-35
+295            android:exported="true"
+295-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\thaka\.gradle\caches\transforms-3\e191bd0e43aa20972a73ae43e0146180\transformed\profileinstaller-1.2.1\AndroidManifest.xml:39:13-36
+296            android:permission="android.permission.DUMP" >
+296-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\thaka\.gradle\caches\transforms-3\e191bd0e43aa20972a73ae43e0146180\transformed\profileinstaller-1.2.1\AndroidManifest.xml:40:13-57
+297            <intent-filter>
+297-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\thaka\.gradle\caches\transforms-3\e191bd0e43aa20972a73ae43e0146180\transformed\profileinstaller-1.2.1\AndroidManifest.xml:41:13-43:29
+298                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+298-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\thaka\.gradle\caches\transforms-3\e191bd0e43aa20972a73ae43e0146180\transformed\profileinstaller-1.2.1\AndroidManifest.xml:42:17-91
+298-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\thaka\.gradle\caches\transforms-3\e191bd0e43aa20972a73ae43e0146180\transformed\profileinstaller-1.2.1\AndroidManifest.xml:42:25-88
+299            </intent-filter>
+300            <intent-filter>
+300-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\thaka\.gradle\caches\transforms-3\e191bd0e43aa20972a73ae43e0146180\transformed\profileinstaller-1.2.1\AndroidManifest.xml:44:13-46:29
+301                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+301-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\thaka\.gradle\caches\transforms-3\e191bd0e43aa20972a73ae43e0146180\transformed\profileinstaller-1.2.1\AndroidManifest.xml:45:17-85
+301-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\thaka\.gradle\caches\transforms-3\e191bd0e43aa20972a73ae43e0146180\transformed\profileinstaller-1.2.1\AndroidManifest.xml:45:25-82
+302            </intent-filter>
+303        </receiver>
+304
+305        <service
+305-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\thaka\.gradle\caches\transforms-3\7273c9aa763225ff3949cc4d5a023b46\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+306            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+306-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\thaka\.gradle\caches\transforms-3\7273c9aa763225ff3949cc4d5a023b46\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+307            android:exported="false" >
+307-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\thaka\.gradle\caches\transforms-3\7273c9aa763225ff3949cc4d5a023b46\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+308            <meta-data
+308-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\thaka\.gradle\caches\transforms-3\7273c9aa763225ff3949cc4d5a023b46\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+309                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+309-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\thaka\.gradle\caches\transforms-3\7273c9aa763225ff3949cc4d5a023b46\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+310                android:value="cct" />
+310-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\thaka\.gradle\caches\transforms-3\7273c9aa763225ff3949cc4d5a023b46\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+311        </service>
+312        <service
+312-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\thaka\.gradle\caches\transforms-3\e54f932f79614ff6f0a226583513f285\transformed\transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+313            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+313-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\thaka\.gradle\caches\transforms-3\e54f932f79614ff6f0a226583513f285\transformed\transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+314            android:exported="false"
+314-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\thaka\.gradle\caches\transforms-3\e54f932f79614ff6f0a226583513f285\transformed\transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+315            android:permission="android.permission.BIND_JOB_SERVICE" >
+315-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\thaka\.gradle\caches\transforms-3\e54f932f79614ff6f0a226583513f285\transformed\transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+316        </service>
+317
+318        <receiver
+318-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\thaka\.gradle\caches\transforms-3\e54f932f79614ff6f0a226583513f285\transformed\transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+319            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+319-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\thaka\.gradle\caches\transforms-3\e54f932f79614ff6f0a226583513f285\transformed\transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+320            android:exported="false" />
+320-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\thaka\.gradle\caches\transforms-3\e54f932f79614ff6f0a226583513f285\transformed\transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+321    </application>
+322
+323</manifest>

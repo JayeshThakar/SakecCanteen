@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.sakeccanteen.app-mergeDebugResources-52:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\thaka\\.gradle\\caches\\transforms-3\\7ea888474c889da4f47d4e7e3d80dfa0\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

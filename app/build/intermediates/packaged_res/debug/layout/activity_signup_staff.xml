@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupStaff"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/Sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Signup"
+        android:textSize="50sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Sign"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:hint="Full Name"
+        android:textColorHint="#FFFFFF"
+        android:autofillHints="name"
+        android:inputType="text"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="Mobile Number"
+        android:textColorHint="#FFFFFF"
+        android:autofillHints="phone"
+        android:inputType="number"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/Reg"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="Registration Number"
+        android:textColorHint="#FFFFFF"
+        android:autofillHints="Registration Number"
+        android:inputType="number"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/Dep"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Reg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="Department"
+        android:textColorHint="#FFFFFF"
+        android:autofillHints="Division"
+        android:inputType="text"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/Mail"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Dep"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="SAKEC Mail Id"
+        android:textColorHint="#FFFFFF"
+        android:autofillHints="emailAddress"
+        android:inputType="textWebEmailAddress"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/Pass"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Mail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:textColorHint="#FFFFFF"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/Repass"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="Re-Enter Password"
+        android:textColorHint="#FFFFFF"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Repass"
+        android:layout_marginTop="20dp"
+        android:text="Submit"/>
+
+    <TextView
+        android:id="@+id/Already"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Submit"
+        android:text="Already a User?"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textColor="#0000FF"
+        android:layout_marginTop="10dp"/>
+
+
+    <ProgressBar
+        android:id="@+id/Progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Already"
+        android:layout_marginTop="30dp"
+        android:visibility="invisible"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,218 @@
+[
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/drawable_table.png.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/drawable/table.png"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_splash_screen.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_signup.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_food.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_food.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_home.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_canteen1.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_canteen1.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/drawable_baseline_account_balance_wallet_24.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/drawable/baseline_account_balance_wallet_24.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_settings.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/drawable_profile_pic.png.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/drawable/profile_pic.png"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_payment.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_payment.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/drawable_baseline_settings_24.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/drawable/baseline_settings_24.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_not.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_not.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_wal.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_wal.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/menu_main_menu.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/menu/main_menu.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_main.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_reject.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_reject.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_payment1.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_payment1.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_intro.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_intro.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_table.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_table.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_canteen.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_canteen.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/drawable_dosa.png.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/drawable/dosa.png"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_canteen_staff.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_canteen_staff.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_intro2.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_intro2.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/drawable_background.png.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/drawable/background.png"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_login.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/drawable_baseline_contact_support_24.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/drawable/baseline_contact_support_24.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_verification.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_verification.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_ask.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_ask.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/drawable_img.jpg.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/drawable/img.jpg"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_signup_staff.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_signup_staff.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/drawable_baseline_logout_24.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/drawable/baseline_logout_24.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/drawable_round_button.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/drawable/round_button.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/xml_backup_rules.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_header.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/header.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_ask2.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_ask2.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/drawable_qr.jpeg.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/drawable/qr.jpeg"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_contact.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_contact.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/layout_activity_accept.xml.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_accept.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-merged_res-54:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.sakeccanteen.app-main-56:/mipmap-mdpi/ic_launcher.webp"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_food.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_food.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_signup.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_verification.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_verification.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_contact.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_contact.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/header.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/header.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_canteen1.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_canteen1.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_settings.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_wal.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_wal.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_intro2.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_intro2.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_not.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_not.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_accept.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_accept.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_canteen_staff.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_canteen_staff.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_payment.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_payment.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_payment1.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_payment1.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_reject.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_reject.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_login.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_ask2.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_ask2.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_canteen.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_canteen.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_table.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_table.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_intro.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_intro.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_home.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_main.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_ask.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_ask.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_signup_staff.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_signup_staff.xml"
+    },
+    {
+        "merged": "com.example.sakeccanteen.app-mergeDebugResources-53:/layout/activity_splash_screen.xml",
+        "source": "com.example.sakeccanteen.app-main-56:/layout/activity_splash_screen.xml"
+    }
+]
